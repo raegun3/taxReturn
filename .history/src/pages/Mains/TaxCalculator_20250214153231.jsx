@@ -75,12 +75,12 @@ const TaxCalculator = () => {
                     <span class="input-group-text">$</span>
                   </div>
                   <input
-                    name="totalIncome"
+                    name="taxWithheld"
                     type="number"
                     autoComplete="off"
                     className="form-control"
                     required
-                    value={totalIncome}
+                    value={taxWithheld}
                     onChange={handleChange}
                   />
                   <div class="input-group-append">
@@ -105,23 +105,17 @@ const TaxCalculator = () => {
                     <span class="input-group-text">.00</span>
                   </div>
                 </div>
-                <label className="col-form-label">Total Applicable Deductions:</label>
-                <div className="input-group mb-3 w-75">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">$</span>
-                  </div>
+                <div className="col-sm-10">
+                  <label className="col-form-label">Total deductions:</label>
                   <input
                     name="deductions"
                     type="number"
                     autoComplete="off"
                     className="form-control"
-                    required
                     value={deductions}
                     onChange={handleChange}
+                    placeholder="$.&#248;&#248;"
                   />
-                  <div class="input-group-append">
-                    <span class="input-group-text">.00</span>
-                  </div>
                 </div>
                 <div className="col-sm-10 pt-3">
                   <button className="btn btn-primary" type="submit">

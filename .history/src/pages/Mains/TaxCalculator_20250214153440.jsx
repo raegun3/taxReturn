@@ -105,18 +105,18 @@ const TaxCalculator = () => {
                     <span class="input-group-text">.00</span>
                   </div>
                 </div>
-                <label className="col-form-label">Total Applicable Deductions:</label>
+                <label className="col-form-label">Total tax withheld:</label>
                 <div className="input-group mb-3 w-75">
                   <div class="input-group-prepend">
                     <span class="input-group-text">$</span>
                   </div>
                   <input
-                    name="deductions"
+                    name="taxWithheld"
                     type="number"
                     autoComplete="off"
                     className="form-control"
                     required
-                    value={deductions}
+                    value={taxWithheld}
                     onChange={handleChange}
                   />
                   <div class="input-group-append">

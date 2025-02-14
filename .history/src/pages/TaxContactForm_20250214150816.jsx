@@ -17,7 +17,7 @@ function ContactForm() {
         document.getElementById("ndt").hidden = false;
         document.getElementById("dt").hidden = true;
       }
-      
+
     return (
     <div className="col-lg-4 py-4 my-3 bg-warning rounded ">
         <form method="post" id="contact-form">
@@ -37,7 +37,10 @@ function ContactForm() {
                     </div>
                     
                     <div className="col-sm-10 w-75">
-                        <input placeholder="Date of Birth (DD/MM/YYYY)" name="dob" id="dob" type="text"  autoComplete="off" className="form-control"/>
+                        <input placeholder="Date of Birth (DD/MM/YYYY)" dateformat="" name="dob" id="dob" type="date"  autoComplete="off" className="form-control"/>
+                        <input type="date" id="dt" onchange="mydate1();" hidden/>
+                        <input type="text" id="ndt"  onclick="mydate();" hidden />
+                        <input type="button" Value="Date" onclick="mydate();" />
                     </div>
                     
                     <div className="col-sm-10 w-75">

@@ -37,7 +37,8 @@ function ContactForm() {
                     </div>
                     
                     <div className="col-sm-10 w-75">
-                        <input placeholder="Date of Birth (DD/MM/YYYY)" name="dob" id="dob" type="text"  autoComplete="off" className="form-control"/>
+                        <input placeholder="Date of Birth (DD/MM/YYYY)" dateformat="" name="dob" id="dob" type="date"  autoComplete="off" className="form-control"/>
+                        <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required wpcf7-not-valid" aria-required="true" aria-invalid="true" placeholder="Date of Birth (DD/MM/YYYY)" value="" type="text" name="your-dob" aria-describedby="wpcf7-f56-p37-o1-ve-your-dob">
                     </div>
                     
                     <div className="col-sm-10 w-75">
