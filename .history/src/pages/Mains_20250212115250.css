@@ -1,0 +1,5 @@
+.content {
+    background-image: url('./src/assets/home-header.jpeg'); /* Fixed background image */
+    background-size: cover;  /* Ensures image covers the entire div */
+    background-position: center; /* Centers the background */
+}

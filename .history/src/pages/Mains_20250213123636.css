@@ -1,0 +1,15 @@
+.content {
+    display: flex;
+    padding-TOP: 76vh;
+    margin-bottom:76vh;
+    flex-direction: column ;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    background-color:brown;
+    background-size:cover;
+    position:fixed;
+   
+    height: 100vh;
+    
+}
+    

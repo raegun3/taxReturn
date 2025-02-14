@@ -1,0 +1,18 @@
+.content {
+    display: block;
+    padding: vh;
+    margin-bottom:67vh;
+    flex-direction: column;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+
+   
+    height: 100vh;
+    
+}
+    
+.backgroundImage{
+    
+    
+    
+}

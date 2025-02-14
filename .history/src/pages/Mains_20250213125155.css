@@ -1,0 +1,13 @@
+.content {
+    display: block;
+    padding-TOP: 8vh;
+    margin-bottom:76vh;
+    flex-direction: column ;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+ 
+   
+    height: 100vh;
+    
+}
+    

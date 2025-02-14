@@ -1,0 +1,12 @@
+.content {
+    display: block;
+    padding: ;
+    margin-bottom:67vh;
+    
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh; 
+    background-image: url('./src/assets/home-header.jpeg'); /* Fixed background image */
+    background-size: cover;  /* Ensures image covers the entire div */
+    background-position: center; /* Centers the background */
+}
