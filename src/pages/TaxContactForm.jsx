@@ -38,7 +38,7 @@ function ContactForm() {
                     <div className="col-sm-10 w-75 align-items-between">
                         <div className="">
                             <input type="checkbox" name="consent" id="consent" className="" defaultChecked={true} required />    
-                            <p1 className="padding-10"> I provide consent and authorize My Tax Refund Today (ABN 0000000000 and Tax Agent 000000000) to add me as a client in the Tax Agent Portal.</p1>
+                            <span className="padding-10"> I provide consent and authorize My Tax Refund Today (ABN 0000000000 and Tax Agent 000000000) to add me as a client in the Tax Agent Portal.</span>
                         </div>
                     </div>
                     <div className="col-sm-10 w-50 text-center">

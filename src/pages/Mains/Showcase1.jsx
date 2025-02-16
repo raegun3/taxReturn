@@ -20,9 +20,9 @@ function Showcase1() {
                             </p>
                             <div className=" container text-start text-light rounded">
                                 <ul>
-                                    <li><p1>$0 upfront fee option</p1></li>
-                                    <li><p1>Easy online process</p1></li>
-                                    <li><p2>Expert tax agents</p2></li>
+                                    <li><span>$0 upfront fee option</span></li>
+                                    <li><span>Easy online process</span></li>
+                                    <li><span>Expert tax agents</span></li>
                                 </ul>
                                 
                                 <button className="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#contact-form">Contact me</button> 

@@ -34,14 +34,14 @@ const TaxCalculator = () => {
 
     if (totalTaxableIncome < 18201) {
       taxPayable = 0;
-    } else if (totalTaxableIncome < 37001) {
+    } else if (totalTaxableIncome < 45000) {
       taxPayable = (totalTaxableIncome - 18200) * 0.19;
-    } else if (totalTaxableIncome < 80001) {
-      taxPayable = (totalTaxableIncome - 37000) * 0.325 + 3572;
+    } else if (totalTaxableIncome < 120001) {
+      taxPayable = (totalTaxableIncome - 45000) * 0.325 + 5092;
     } else if (totalTaxableIncome < 180001) {
-      taxPayable = (totalTaxableIncome - 80000) * 0.37 + 17547;
+      taxPayable = (totalTaxableIncome - 120000) * 0.37 + 29467;
     } else {
-      taxPayable = (totalTaxableIncome - 180000) * 0.47 + 54547;
+      taxPayable = (totalTaxableIncome - 180000) * 0.45 + 51667;
     }
 
     taxRefund = Math.floor(withheld - taxPayable);
@@ -71,8 +71,8 @@ const TaxCalculator = () => {
               <div className="row justify-content-center">
               <label className="col-form-label">Total Income or Gross Payment:</label>
                 <div className="input-group mb-3 w-75">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">$</span>
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">$</span>
                   </div>
                   <input
                     name="totalIncome"
@@ -83,14 +83,14 @@ const TaxCalculator = () => {
                     value={totalIncome}
                     onChange={handleChange}
                   />
-                  <div class="input-group-append">
-                    <span class="input-group-text">.00</span>
+                  <div className="input-group-append">
+                    <span className="input-group-text">.00</span>
                   </div>
                 </div>
                 <label className="col-form-label">Total tax withheld:</label>
                 <div className="input-group mb-3 w-75">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">$</span>
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">$</span>
                   </div>
                   <input
                     name="taxWithheld"
@@ -101,14 +101,14 @@ const TaxCalculator = () => {
                     value={taxWithheld}
                     onChange={handleChange}
                   />
-                  <div class="input-group-append">
-                    <span class="input-group-text">.00</span>
+                  <div className="input-group-append">
+                    <span className="input-group-text">.00</span>
                   </div>
                 </div>
                 <label className="col-form-label">Total Applicable Deductions:</label>
                 <div className="input-group mb-3 w-75">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">$</span>
+                  <div className="input-group-prepend">
+                    <span className="input-group-text">$</span>
                   </div>
                   <input
                     name="deductions"
@@ -119,8 +119,8 @@ const TaxCalculator = () => {
                     value={deductions}
                     onChange={handleChange}
                   />
-                  <div class="input-group-append">
-                    <span class="input-group-text">.00</span>
+                  <div className="input-group-append">
+                    <span className="input-group-text">.00</span>
                   </div>
                 </div>
                 <div className="col-sm-10 pt-3">
