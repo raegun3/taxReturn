@@ -7,17 +7,13 @@ const Layout = () => {
   return (
     <>
       <div className="body">
-        
         <Navbar />
         <div className="contentWrapper">
           <Outlet />
         </div>
-        <div className="footer">
-          <Footer />
+        <Footer />
+        
       </div>
-      </div>
-      
-      
     </>
   );
 };

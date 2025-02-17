@@ -1,12 +1,14 @@
 .content {
-    display: block;
-    padding-top: 8vh;
+    display: flex;
     
-    margin-bottom:78vh;
+    
+    margin-bottom:0vh;
     flex-direction: column ;
     justify-content: center;  /* Centers horizontally */
-    align-items: center;      /* Centers vertically */
-    height: 100vh;
+    align-items: ;      /* Centers vertically */
+    
+    
+
     
 }
     

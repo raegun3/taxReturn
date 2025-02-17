@@ -8,27 +8,29 @@ import maxReturn from "../assets/maximum-refund-guarantee-logo.png";
 export default function Footer() {
     return (
         
-        <div className="">
+        <div className="bg-dark">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7 align-self-center">
                         <div className="">
                             <div className=" text-start">
                                 <ul className="">
-                                    <li className=" nav-link text-light lead">QUICK LINK</li>
-                                    <li>
-                                    <Link to="/" className="nav-link text-light">Home</Link>
+                                    <li className=" nav-link text-light lead">
+                                        <span>QUICK LINK</span>
                                     </li>
-                                    <li className="">
+                                    <li>
+                                        <Link to="/" className="nav-link text-light">Home</Link>
+                                    </li>
+                                    <li className="nav-link">
                                         <Link to="Showcase1" className="nav-link text-light">Tax Return</Link>
                                     </li>
-                                    <li className="">
+                                    <li className="nav-link">
                                         <Link to="AccountingAdvisory" className="nav-link text-light">Accounting & Advisory</Link>
                                     </li>
-                                    <li className="">
+                                    <li className="nav-link">
                                         <Link to="#instructors" className="nav-link text-light">Helpful Resources</Link>
                                     </li>
-                                    <li className="">
+                                    <li className="nav-link">
                                         <Link to="ContactMe" className="nav-link text-light">Contact Us</Link>
                                     </li>
                                 </ul>
