@@ -4,7 +4,7 @@ function Showcase2() {
 return ( 
     <>
 
-        <div className="container mb-2">
+        <div className="container mb-1">
             <div className="row justify-content-between align-items-center">
                 <div className="col-lg-4">
                     <img className="" src="src\assets\tpa-cpa-accreditations.png"></img>

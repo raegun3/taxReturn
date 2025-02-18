@@ -1,5 +1,4 @@
 import ContactForm from "../TaxContactForm";
-import { Link } from 'react-router-dom';
 
 function Showcase1() {
    
@@ -26,7 +25,7 @@ function Showcase1() {
                                     <li><span>Expert tax agents</span></li>
                                 </ul>
                                 
-                                <Link to="/OnSpotTaxReturn"><button className="btn btn-primary btn-lg">Read More</button></Link> 
+                                <button className="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#contact-form">Contact me</button> 
 
                             </div>
                             

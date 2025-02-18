@@ -4,7 +4,7 @@ function Showcase2() {
 return ( 
     <>
 
-        <div className="container mb-2">
+        <div className="container">
             <div className="row justify-content-between align-items-center">
                 <div className="col-lg-4">
                     <img className="" src="src\assets\tpa-cpa-accreditations.png"></img>
@@ -42,7 +42,7 @@ return (
                         <p>To learn more about our team of expert tax agents, click the button below.</p>
                     </ul>
                     <div>
-                        <Link to="/OnSpotTaxReturn"><button className="btn w-25 btn-primary" >Read more</button></Link>
+                        <Link to="ContactMe"><button className="btn w-25 btn-primary" >Read more</button></Link>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ return (
                                     </div>
                                     <div className="d-block">
                                     <p className="card-text py-3">HyperText Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</p>
-                                    <Link to="/AccountingAdvisory"><button className="btn w-50 btn-primary">Read More</button></Link>
+                                    <a href="#" className="btn w-50 btn-primary">Read more</a>
                                     </div>
                                     
                                 </div>
@@ -76,7 +76,7 @@ return (
                                     </div>
                                     <div className="d-block">
                                     <p className="card-text mb-3">Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML </p>
-                                    <Link to="/AccountingAdvisory"><button className="btn w-50 btn-primary">Read More</button></Link>
+                                    <a href="#" className="btn w-50 btn-primary">Read more</a>
                                     </div>
                                     
                                 </div>
@@ -90,7 +90,7 @@ return (
                                     </div>
                                     <div className="d-block">
                                         <p className="card-text py-3">JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. </p>
-                                        <Link to="/AccountingAdvisory"><button className="btn w-50 btn-primary">Read More</button></Link>
+                                        <a href="#" className="btn w-50 btn-primary ">Read more</a>
                                     </div>
                                 </div>
                             </div>

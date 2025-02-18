@@ -1,14 +1,13 @@
-import ContactForm from "../TaxContactForm";
-import { Link } from 'react-router-dom';
+import ContactForm from "../pages/TaxContactForm";
 
-function Showcase1() {
+export default function OnSpotTaxReturn() {
    
 
 
 
     return (
         
-            <section className=" text-dark pt-3 pb-2 text-center">
+            <section className=" text-dark pt-3 pb-2 text-center bg-dark">
                 <div className=" container d-flex justify-content-center">
                     <div className="">
                     <div className="row align-items-center justify-content-center">
@@ -26,7 +25,7 @@ function Showcase1() {
                                     <li><span>Expert tax agents</span></li>
                                 </ul>
                                 
-                                <Link to="/OnSpotTaxReturn"><button className="btn btn-primary btn-lg">Read More</button></Link> 
+                                <button className="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#contact-form">Contact me</button> 
 
                             </div>
                             
@@ -40,10 +39,3 @@ function Showcase1() {
         
     );
 }
-export default Showcase1
-
-
-
-
-
-

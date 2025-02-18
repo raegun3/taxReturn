@@ -26,7 +26,7 @@ function Showcase1() {
                                     <li><span>Expert tax agents</span></li>
                                 </ul>
                                 
-                                <Link to="/OnSpotTaxReturn"><button className="btn btn-primary btn-lg">Read More</button></Link> 
+                                <Link to="/OnSpotTaxReturn"><button className="btn btn-primary btn-lg">Contact me</button></Link> 
 
                             </div>
                             
