@@ -9,11 +9,11 @@ return (
                 <div className="col-lg-4">
                     <img className="" src="src\assets\tpa-cpa-accreditations.png"></img>
                 </div>
-                <div className="col-7 col-lg-6 text-start">
+                <div className="col-lg-7 text-start">
                     <div className="lead pb-3">
                         <h1><span className="text-warning">Why Lodge Your Tax Return</span> With Us?</h1>
                     </div>
-                <div>
+                    <div>
                         
                     </div>
                     <h6>Below are a few of the compelling reasons why you should consider using our tax agents<br />to prepare your tax return:</h6>
@@ -52,7 +52,7 @@ return (
         
 
         <section className="professionals">
-                <div className="container pb-2">
+                <div className="container">
                     <div className="row text-center g-2" >
                         <div className="col-lg">
                             <div className="card h-100">  
