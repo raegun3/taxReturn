@@ -3,8 +3,8 @@ function Showcase3() {
     return ( 
         <section className="instructors">
             <div className="container">
-                <div className="row text-center g-2  d-inline-grid">
-                    <div className="col-lg">
+                <div className="row text-center g-2 d-inline-block flex-row">
+                    <div className="col-md">
                         <div className="card w-100">
                             <div className="card-body p-4 ">
                                 <img src="src/assets/pro_jung.jpg" alt="Accountant" className="img-fluid  rounded-circle mb-3" style={{height: "11vh"}}></img>
@@ -14,7 +14,7 @@ function Showcase3() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg">
+                    <div className="col-md">
                         <div className="card w-100">
                             <div className="card-body p-4">
                                 <img src="src/assets/pro_lee.jpg" alt="Accountant" className="img-fluid  rounded-circle mb-3" style={{height: "11vh"}}></img>
@@ -24,7 +24,7 @@ function Showcase3() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg">
+                    <div className="col-md">
                         <div className="card w-100">
                             <div className="card-body p-4">
                                 <img src="src/assets/pro_hyunju.png" alt="Accountant" className="img-fluid rounded-circle mb-3" style={{height: "11vh"}}></img>

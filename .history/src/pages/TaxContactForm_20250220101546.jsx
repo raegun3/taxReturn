@@ -2,7 +2,7 @@
 function ContactForm() {
       
     return (
-    <div className="col-6 col-lg-4 p-4 my-3 bg-warning rounded">
+    <div className="col-6 col-lg-7 p-4 my-3 bg-warning rounded">
         <form method="post" id="contact-form">
             <div className=" form-group row justify-content-center">                             
                     <div className=" text-center flex-grow-0">

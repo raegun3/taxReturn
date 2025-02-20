@@ -9,7 +9,7 @@ return (
                 <div className="col-lg-4">
                     <img className="" src="src\assets\tpa-cpa-accreditations.png"></img>
                 </div>
-                <div className="col-lg-6 text-start">
+                <div className="col-7 col-lg-8 text-start">
                     <div className="lead pb-3">
                         <h1><span className="text-warning">Why Lodge Your Tax Return</span> With Us?</h1>
                     </div>

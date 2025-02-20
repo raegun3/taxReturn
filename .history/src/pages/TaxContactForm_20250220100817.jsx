@@ -2,10 +2,10 @@
 function ContactForm() {
       
     return (
-    <div className="col-6 col-lg-4 p-4 my-3 bg-warning rounded">
+    <div className="col-lg-4 w-75 py-4 my-3 bg-warning rounded">
         <form method="post" id="contact-form">
             <div className=" form-group row justify-content-center">                             
-                    <div className=" text-center flex-grow-0">
+                    <div className="col-sm-10 w-75 text-center flex-grow-0">
                         <h2>Free Refund</h2>
                         <h2>Estimate</h2>
                         <input placeholder="First Name" name="first-name" id="first-name"type="text" autoComplete="off" autoFocus className="form-control"/>
