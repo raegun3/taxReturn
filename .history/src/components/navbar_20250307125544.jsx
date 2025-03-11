@@ -40,7 +40,7 @@ function Navbar() {
                             <Link to="AccountingAdvisory" className="nav-link">Accounting & Advisory</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="HelpfulResources" className="nav-link">Helpful Resources</Link>
+                            <Link to="helpfulResources" className="nav-link">Helpful Resources</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="ContactMe" className="nav-link">Contact Us</Link>

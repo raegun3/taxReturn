@@ -6,8 +6,7 @@ import AccountingAdvisory from "./pages/Accounting&Advisory";
 import ContactMe from "./pages/ContactMe";
 import OnSpotTaxReturn from "./pages/OnSpotTaxReturn";
 import FeesAndCharges from "./pages/feesAndCharges";
-import HelpfulResources from "./pages/helpfulResources";
-
+import helpfulResources from "./pages/helpfulResources";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +19,7 @@ const router = createBrowserRouter([
       { path: "ContactMe", element: <ContactMe /> },
       { path: "OnSpotTaxReturn", element: <OnSpotTaxReturn /> },
       { path: "FeesAndCharges", element: <FeesAndCharges />},
-      { path: "HelpfulResources", element: <HelpfulResources />},
+      { path: "helpfulResources", element: <helpfulResources />},
       
     ],
   },

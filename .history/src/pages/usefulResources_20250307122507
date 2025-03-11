@@ -1,0 +1,18 @@
+import ContactForm from "../pages/TaxContactForm";
+
+export default function OnSpotTaxReturn() {
+   
+
+
+
+    return (
+        
+            <section className=" text-dark pt-3 pb-2 text-center">
+                <div className=" container d-flex justify-content-center bg-light">
+                    
+                </div>
+            </section>
+        
+        
+    );
+}

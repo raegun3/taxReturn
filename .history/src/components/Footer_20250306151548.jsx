@@ -34,7 +34,7 @@ export default function Footer() {
                                         <Link to="AccountingAdvisory" className="nav-link text-light">Accounting & Advisory</Link>
                                     </li>
                                     <li className="nav-link">
-                                        <Link to="helpfulResources" className="nav-link text-light">Helpful Resources</Link>
+                                        <Link to="#instructors" className="nav-link text-light">Helpful Resources</Link>
                                     </li>
                                     <li className="nav-link">
                                         <Link to="ContactMe" className="nav-link text-light">Contact Us</Link>

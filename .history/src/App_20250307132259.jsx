@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       { path: "ContactMe", element: <ContactMe /> },
       { path: "OnSpotTaxReturn", element: <OnSpotTaxReturn /> },
       { path: "FeesAndCharges", element: <FeesAndCharges />},
-      { path: "HelpfulResources", element: <HelpfulResources />},
+      { path: "helpfulResources", element: <HelpfulResources />},
       
     ],
   },

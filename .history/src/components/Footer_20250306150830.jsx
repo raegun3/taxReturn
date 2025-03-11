@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import footerLogo from "../assets/footer_logo_01.png";
 import security from "../assets/footer_logo_04.png";
 import maxReturn from "../assets/maximum-refund-guarantee-logo.png";
-import taxpractitioners from "../assets/tax-practitioners-board-logo.png";
+
 
 
 export default function Footer() {
@@ -34,7 +34,7 @@ export default function Footer() {
                                         <Link to="AccountingAdvisory" className="nav-link text-light">Accounting & Advisory</Link>
                                     </li>
                                     <li className="nav-link">
-                                        <Link to="helpfulResources" className="nav-link text-light">Helpful Resources</Link>
+                                        <Link to="#instructors" className="nav-link text-light">Helpful Resources</Link>
                                     </li>
                                     <li className="nav-link">
                                         <Link to="ContactMe" className="nav-link text-light">Contact Us</Link>
@@ -82,9 +82,7 @@ export default function Footer() {
                             <div className="col-2">
                                 <img src={maxReturn} alt="max-return-logo" width="80" />
                             </div>
-                            <div className="col-2">
-                                <img src={taxpractitioners} alt="tax-practitioner-logo" width="80" />
-                            </div>
+                            
                         </div>      
                 </div>
             </div>
