@@ -24,7 +24,7 @@ const HelpfulResources = () => {
       })
       .then((data) => {
         console.log("API Response:", data); // Log full response for debugging
-        setProducts(data.data.products || []); // Ensure correct property path
+        setProducts(data.products || []); // Ensure correct property path
         setLoading(false);
       })
       .catch((error) => {

@@ -7,7 +7,7 @@ import ContactMe from "./pages/ContactMe";
 import OnSpotTaxReturn from "./pages/OnSpotTaxReturn";
 import FeesAndCharges from "./pages/feesAndCharges";
 import HelpfulResources from "./pages/helpfulResources";
-
+import Consent from "./pages/Consent";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +21,7 @@ const router = createBrowserRouter([
       { path: "OnSpotTaxReturn", element: <OnSpotTaxReturn /> },
       { path: "FeesAndCharges", element: <FeesAndCharges />},
       { path: "HelpfulResources", element: <HelpfulResources />},
+      { path: "consent", element: <Consent />},
       
     ],
   },

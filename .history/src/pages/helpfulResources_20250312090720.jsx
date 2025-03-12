@@ -24,7 +24,7 @@ const HelpfulResources = () => {
       })
       .then((data) => {
         console.log("API Response:", data); // Log full response for debugging
-        setProducts(data.data.products || []); // Ensure correct property path
+        setProducts(data.products || []); // Ensure correct property path
         setLoading(false);
       })
       .catch((error) => {
@@ -48,7 +48,7 @@ const HelpfulResources = () => {
                             <ContactForm /> 
                                 <div className="col-lg-6 pt-5 order-lg-1 bg">
                                 <h2>Banking Products</h2>
-                                    <ul className>
+                                    <ul className=" text-black">
                                         {products.map((product) => (
                                         <li key={product.productId}>
                                             <strong>{product.name}</strong> - {product.description}
@@ -61,7 +61,7 @@ const HelpfulResources = () => {
                             </div>                       
                         </div>
                     </section>
-
+                    
 
   );
 };

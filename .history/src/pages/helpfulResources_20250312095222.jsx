@@ -24,7 +24,7 @@ const HelpfulResources = () => {
       })
       .then((data) => {
         console.log("API Response:", data); // Log full response for debugging
-        setProducts(data.data.products || []); // Ensure correct property path
+        setProducts(data.products || []); // Ensure correct property path
         setLoading(false);
       })
       .catch((error) => {
@@ -46,7 +46,7 @@ const HelpfulResources = () => {
                         <div className="container bg-light">
                             <div className="row d-flex align-items-center justify-content-evenly flex-row-reverse">
                             <ContactForm /> 
-                                <div className="col-lg-6 pt-5 order-lg-1 bg">
+                                <div className="col-lg-6 pt-5 order-lg-1 bg w-100 h-100">
                                 <h2>Banking Products</h2>
                                     <ul className>
                                         {products.map((product) => (
